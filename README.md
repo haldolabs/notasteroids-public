@@ -17,7 +17,15 @@ You are a **Lithonaut**: a tardigrade-fungal collective flying a shell of sculpt
 The enemy is **The Axiom**, which believes the universe is a spreadsheet with rendering
 errors, and is working through them.
 
-> There is no gun. A gun is a way of disagreeing at a distance.
+> There is no weapon. A weapon is a way of disagreeing at a distance.
+
+You are carrying no armament, and that is the design rather than a limitation waiting to be
+lifted. Nothing in the shop sells you one. There is no upgrade tree that ends in a better
+way to kill something from far away.
+
+It is worth saying out loud that this is a game about a rock, and that
+[weaponising space is still a bad idea](https://www.ethicsandinternationalaffairs.org/online-exclusives/the-cosmic-precipice-why-weaponizing-space-hurts-us-all)
+in the world where the rest of us live.
 
 ---
 
@@ -31,10 +39,11 @@ If you are playing and something is wrong — or you just want something differe
 
 ---
 
-## Smash, because there is no gun
+## Smash, because there is no weapon
 
-Momentum is the weapon. You line the rock up and you commit, and the hull keeps every dent
-you collect on the way.
+Momentum is all you have. You line the rock up and you commit, and the hull keeps every
+dent you collect on the way — which is the honest version of a fight: you do not get to
+stay clean, and you do not get to do it from over there.
 
 ![Smashing an AXIOM ship by ramming it](media/loops/smash.gif)
 
