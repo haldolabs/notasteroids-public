@@ -1,0 +1,268 @@
+![NOT ASTEROIDS — the rock must endure](media/header.png)
+
+# NOT ASTEROIDS
+
+> ### 🚧 Currently in BETA testing
+>
+> The game is playable start to finish, in a browser, with nothing to install. It is not
+> finished, there is no release date, and it is not open to the public yet — right now it
+> exists for the people testing it, who already have the link.
+>
+> **If that is you: [start here →](BETA.md)**
+
+You cannot shoot. You sculpt a rock, bolt a thruster to it, and ram the geometry that is
+trying to file the universe into a spreadsheet.
+
+You are a **Lithonaut**: a tardigrade-fungal collective flying a shell of sculpted stone.
+The enemy is **The Axiom**, which believes the universe is a spreadsheet with rendering
+errors, and is working through them.
+
+> There is no gun. A gun is a way of disagreeing at a distance.
+
+---
+
+## This repository has no code in it
+
+The game is developed privately. What lives here is the **public face**: what the game is,
+what is in it, and the bug reports and suggestions that beta testers file from inside it.
+
+If you are playing and something is wrong — or you just want something different — press
+<kbd>B</kbd>. That is the whole process. [How reporting works ↓](#press-b)
+
+---
+
+## Smash, because there is no gun
+
+Momentum is the weapon. You line the rock up and you commit, and the hull keeps every dent
+you collect on the way.
+
+![Smashing an AXIOM ship by ramming it](media/loops/smash.gif)
+
+## Cut the hull you fly
+
+Ten strikes of acidic spit shape a fresh rock. The silhouette you carve is the hitbox you
+keep for the rest of the run — there is no separate "collision shape" being kind to you.
+
+![Sculpting a hull in the Rock Designer](media/loops/designer.gif)
+
+## Nineteen thrusters, no apology
+
+Cosmetic, cyclable mid-flight with <kbd>T</kbd>, and most of why the game looks the way it
+does.
+
+![Cycling through thruster styles](media/loops/thrusters.gif)
+
+One of them, **PI TAPE**, stamps a digit of π into the playfield every character-width you
+fly and leaves it there to fade — so your exhaust trail is a legible record of the path you
+actually took.
+
+![PI TAPE skytyping the digits of pi along the flight path](media/loops/pitape.gif)
+
+## Spend ROX on things that are not weapons
+
+Nineteen power-ups, five hats a veteran AXIOM ship can steal off your hull, and a salvaged
+AXIOM module behind the counter that is legally barred from selling you anything and does
+it anyway.
+
+![The E-SHOP](media/loops/shop.gif)
+
+## And then the road stops being a map
+
+![The Tunnel](media/loops/tunnel.gif)
+
+---
+
+## The five legs
+
+Five games ship in here, and they are one story played in order.
+
+| | Leg | What it is |
+|---|---|---|
+| **1** | **THE STAR MAP** | The war, and the part with the hours in it. Ten systems, taken one at a time, each with a boss that has a personality. |
+| **2** | **THE TUNNEL** | Taking the map does not end anything, it opens something. The road to the AXIOM's home is a vessel threaded through several universes at once. It sings, because everything does. |
+| **3** | **ARCHNOTOIDS** | The road ends at three black holes orbiting each other, with the AXIOM's central mind running on everything falling past them. You are close enough that the tide has rolled your hull flat — which is why this one is played with a paddle. |
+| **4** | **THE GRAVITY FIELD** | You win, and what is left is you: a sentient rock in an open field, gathering other rocks, cooling. Accreting makes you pull harder, and the only way to put the load down is to let go of it. |
+| **S** | **SPACE TRASH** | Every loss on every leg falls here, among everything the AXIOM ever threw away. Hold out and it puts you back where you fell. Break up in here and the run is over. |
+
+**Lost, not dead.** A rock does not die. It goes to spore state, or it is *lost* — mislaid,
+discarded, downhill. The trash is where lost things are, and it is not a punishment. It is
+only where things end up.
+
+The longer version — who you are, what the Axiom wants, and why leg 3 is played flat — is
+in **[LORE.md](LORE.md)**. None of it is required reading; the game never stops to explain
+itself.
+
+---
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Ramming a ship in the Binary Belt](media/screens/shot-01-smash.png) | ![The E-SHOP](media/screens/shot-02-eshop.png) |
+| *Tier 3, mid-smash. The HUD is two corners and nothing else.* | *The counter, and the module that runs it.* |
+| ![The Tunnel](media/screens/shot-03-tunnel.png) | ![A boss fight](media/screens/shot-04-boss.png) |
+| *Leg 2. It sings.* | *Bosses have personalities, weapons and escorts.* |
+| ![ARCHNOTOIDS](media/screens/shot-05-archnotoids.png) | ![The star map](media/screens/shot-06-starmap.png) |
+| *Leg 3, played flat, for a reason the story gives.* | *Ten systems. The jump drive needs the local boss dead.* |
+| ![A thruster style](media/screens/shot-07-thruster.png) | ![The Rock Designer](media/screens/shot-08-designer.png) |
+| *One of nineteen.* | *Ten strikes. What you cut is what you fly.* |
+| ![Zen mode](media/screens/shot-09-zen.png) | ![Wormhole travel](media/screens/shot-10-wormhole.png) |
+| *<kbd>Z</kbd> takes the instruments off and leaves the rock alone in the dark.* | *Between systems.* |
+| ![PI TAPE](media/screens/shot-11-pitape.png) | |
+| *The trail is the path, written down.* | |
+
+There is also a [trailer](media/trailer.mp4) in here. GitHub will not play it inline, so
+you will have to download it to watch it.
+
+---
+
+## Controls
+
+Enough to start. The full table, including the gamepad column, is in
+**[CONTROLS.md](CONTROLS.md)**, and on the game's own CONTROLS screen from the main menu.
+
+| | |
+|---|---|
+| <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / arrows | Thrust and steer |
+| <kbd>Space</kbd> / <kbd>Enter</kbd> | Eject, confirm |
+| <kbd>E</kbd> | Fire the next ready ability |
+| <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> | Fire a specific power-up slot |
+| <kbd>T</kbd> | Cycle thruster style |
+| <kbd>F</kbd> | Cycle vector font |
+| <kbd>1</kbd> <kbd>2</kbd> | Throttle down / up |
+| <kbd>-</kbd> <kbd>+</kbd> | Spin rate down / up |
+| <kbd>Z</kbd> | Zen mode — instruments off |
+| <kbd>B</kbd> | File a bug or a suggestion |
+| <kbd>Esc</kbd> | Pause |
+
+Full controller support. The pad has no digits, so <kbd>X</kbd> fires each equipped ability
+in turn rather than pretending to be a number row.
+
+---
+
+## What is actually in it
+
+Counted from the code, not from a wishlist.
+
+* **10 star systems**, tiered, each with a boss
+* **19 thruster styles**, cosmetic, cyclable mid-flight
+* **19 power-ups**, three equipped at once
+* **19 vector fonts** — everything drawn as line segments, including the text
+* **5 hats**, which a veteran AXIOM ship can steal off your hull and then wear
+* **9 save slots**, local to your browser
+* **A settings maze** — every tunable parameter of the game is one entry in one registry, and the pages, the persistence and the tests all derive from it
+* **THE CONTROL ROOM** — most of those levers are behind a door you have to fly a rock through
+* **THE SOUND LAB** — audition every sound effect, and pin the variant you like
+* **A narrator you can change, and make unreliable** — voices may notice things about your run, and may be wrong about them. The seed stays exempt: a wrong seed is a broken feature, not a joke.
+
+### Accessibility
+
+Adjustable HUD scale, HUD opacity and text density. ARCHNOTOIDS — the paddle leg — has its
+own high-contrast and colourblind-safe modes, plus a sensitivity dial.
+
+Being straight about the limits of that: the colourblind option is **specific to
+ARCHNOTOIDS** and does not restyle the rest of the game, which still leans on a small set
+of saturated colours on black. If that is a problem for you, say so with <kbd>B</kbd> — it
+is a fair thing to want and nobody has asked yet.
+
+What is a firm rule: anything that exists to stop requiring an ability is never locked
+behind THE CONTROL ROOM. Reaching that room means flying a rock through a doorway, which
+is exactly the ability those settings exist to stop requiring.
+
+---
+
+<a name="press-b"></a>
+
+## Press B
+
+The reporter is built into the game. Press <kbd>B</kbd> during play, type what happened,
+and it goes straight to the machine that serves the game.
+
+*Testing the game? **[BETA.md](BETA.md)** is the fuller version of this — what is worth
+sending, what is out of scope, and the one habit that makes a report actionable.*
+
+* **No account.** You do not need one, and there is nothing to sign up for.
+* **Nothing about you is stored.** The server keeps what you chose to type and what your
+  browser said it was. It deliberately never writes down an address.
+* **A snapshot rides along** — which build you were on, which screen you were looking at,
+  the level, the seed, your settings and a summary of the run — so that "it froze" arrives
+  with enough attached to chase it.
+
+### What happens to it
+
+Every report is read by a human, then transcribed into an **[Issue](../../issues)** here:
+quoted exactly as written, with the useful half of its snapshot. Nothing is published
+before someone has read it, which is also how we keep track of which ones we have got to.
+
+Then it is triaged against the actual code, so the Issue title may end up describing
+something narrower — or wider — than the report did. That has happened more than once:
+
+> *"RUNNING INTO A BOSS WITH LASERS DOES NOT AUTOMATICALLY SHUT DOWN THERE WEAPON"*
+
+...was correct, and the real defect was worse than what was visible from the cockpit. The
+orphaned beam was **still lethal** — you could be killed by a weapon whose owner you had
+already smashed.
+
+> *"THE PROPULSION UPGRADE IN THE ESHOP IS UNNEEDED"*
+
+...was also correct, and understated. Buying it three times moved your thrust from 2 to 5,
+while tapping <kbd>2</kbd> moved it to 10 for free. Not unneeded — dominated.
+
+Labels say where a report got to:
+
+| | |
+|---|---|
+| `from-game` | Filed with the in-game reporter |
+| `bug` / `suggestion` | Which kind it turned out to be |
+| `shipped` | Fixed and live |
+| `working-as-intended` | Real behaviour, deliberately chosen |
+
+A closed issue names the build the fix went live in. Deploys take about two minutes, so
+**shipped** means you can go and look.
+
+---
+
+## Honest notes
+
+Things worth knowing before you spend an evening on it.
+
+**It is in beta, and it deploys constantly.** There is no release date and no store page. A
+fix reaches the live game a couple of minutes after it is written, so there is no version
+you are "on" for the evening. Your save lives in your browser's local storage, which means
+clearing site data clears your runs.
+
+**Online play is unfinished and not being promoted yet.** There is a MULTIPLAYER entry on
+the main menu and it does something, but it is a work in progress rather than a feature,
+and none of this page is about it. Everything described here is single-player.
+
+**There are no accounts.** No profiles, no logins, no cloud saves, no leaderboards —
+nothing to sign up for and nothing to lose access to.
+
+**Some of the audio is AI-generated, ahead of time.** Sound effects from Stable Audio Open
+and music from ACE-Step, generated locally, with the prompts and seeds kept alongside the
+assets so any of them can be rebuilt. CLANKER's voice is **SAM — Software Automatic Mouth,
+1982** — a formant synthesiser, not a model. No AI-generated art ships, and the game makes
+no AI calls while you play.
+
+**The letterforms are mostly not ours.** Fourteen of the nineteen vector fonts are
+Hofstadter & McGraw's Letter Spirit gridfonts and one is the 1979 Atari *Asteroids* ROM
+font, vendored with attribution.
+
+**The title is a joke about a trademark somebody else owns.** It is a browser game on our
+own domain, given away.
+
+> The genre itself is settled law, which is a nicer footnote than it sounds. In
+> [*Atari v. Amusement World*](https://en.wikipedia.org/wiki/Atari_v._Amusement_World)
+> (D. Md., 1981) Atari sued over *Meteors*, an Asteroids-alike, and **lost**. The court
+> counted twenty-two similarities between the two games and held they were inevitable to
+> the idea of shooting space rocks with a spaceship — an idea nobody gets to own, however
+> well they executed it first. That is the precedent games like this one are made under,
+> and this one is a good deal further from *Asteroids* than *Meteors* ever was: you cannot
+> shoot.
+>
+> That case is about copyright. A name is a trademark question, which is a different one,
+> and we are not pretending otherwise by quoting it here.
+
+---
+
+*The rock must endure.*
