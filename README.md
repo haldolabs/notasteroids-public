@@ -97,8 +97,10 @@ Five games ship in here, and they are one story played in order.
 discarded, downhill. The trash is where lost things are, and it is not a punishment. It is
 only where things end up.
 
-The longer version — who you are, what the Axiom wants, and why leg 3 is played flat — is
-in **[LORE.md](LORE.md)**. None of it is required reading; the game never stops to explain
+The whole thing — the extremophile that had to be the one left standing, the slow fade that
+emptied the Earth without a single catastrophe, the thermal oasis AXIOM built by accident,
+and why the rocks were already singing before any of it — is in
+**[LORE.md](LORE.md)**. None of it is required reading; the game never stops to explain
 itself.
 
 ---
