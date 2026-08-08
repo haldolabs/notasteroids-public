@@ -73,6 +73,11 @@ Nineteen power-ups, five hats a veteran AXIOM ship can steal off your hull, and 
 AXIOM module behind the counter that is legally barred from selling you anything and does
 it anyway.
 
+Seven of the nineteen answer a key; the rest just work. **[POWERS.md](POWERS.md)** says what
+each one does and what you should expect to see — including the four that show you nothing
+at all, and the one that currently fires and does nothing if there is no coloured enemy
+about.
+
 ![The E-SHOP](media/loops/shop.gif)
 
 ## And then the road stops being a map
