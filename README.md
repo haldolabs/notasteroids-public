@@ -232,6 +232,13 @@ Labels say where a report got to:
 | `bug` / `suggestion` | Which kind it turned out to be |
 | `shipped` | Fixed and live |
 | `working-as-intended` | Real behaviour, deliberately chosen |
+| `parked` | Real, kept, waiting on something else first |
+| `moved-to-private` | Now a work item in the private repo, where the code is |
+
+**`moved-to-private` is the normal path, not a dead end.** Nothing gets worked on until it has
+been rewritten as an issue against the actual code — with the file, the line and the
+reproduction attached — and that has to happen where the code lives. When a report is moved,
+the comment on it says what was found in the process, so the trail does not go cold here.
 
 A closed issue names the build the fix went live in. Deploys take about two minutes, so
 **shipped** means you can go and look.
