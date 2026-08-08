@@ -4,16 +4,33 @@ Nineteen of them, bought with ROX from the E-SHOP. This page says what each actu
 and what you should expect to see, because the shop row is one line and that has not been
 enough.
 
-**You can equip three at once.** Seven of the nineteen answer a key; the other twelve just
-work. The shop marks every row **KEYED** or **ALWAYS ON** before you spend anything.
+**Buy as many as you like. You can equip four at once.** Seven of the nineteen answer a key;
+the other twelve just work. The shop marks every row **KEYED** or **ALWAYS ON** before you
+spend anything, and says whether a purchase went straight into a slot or is waiting for one.
+
+All four show in one bar along the bottom of the screen — abilities with their key and a
+cooldown ring, always-on ones with whatever they are doing:
+
+```
+   READY      [5]      0/5      [6]
+  ┌─────┐  ┌─────┐  ┌─────┐  ┌─────┐
+  │  ◊  │  │  ✳  │  │  ◔  │  │  ✚  │
+  └─────┘  └─────┘  └─────┘  └─────┘
+   ARMOR     CRYO    DEBRIS    TIDAL
+```
+
+The digits only ever land on things you can press. Equip a passive first and it takes a box
+without taking a key, so `5` still fires the first real ability — you will never press a
+number and have nothing happen.
 
 ---
 
 ## The seven that answer a key
 
-They sit in the hotbar along the bottom of the screen, on <kbd>5</kbd> <kbd>6</kbd>
-<kbd>7</kbd>, with the cooldown drawn as a ring. On a controller, <kbd>X</kbd> fires the
-next ready one and moves along.
+They take <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd>, in the order you have them,
+with the cooldown drawn as a ring around the icon. On a controller, <kbd>X</kbd> fires the
+next ready one and moves along — that is the pad's only route to an ability, since it has no
+number row.
 
 | | ROX | Cooldown | What it does | What you see |
 |---|---|---|---|---|
@@ -60,24 +77,24 @@ about.
 
 ---
 
-## Why the HUD has two of these
+## One bar, not two corners
 
-Two corners, on purpose, answering different questions:
+It used to be two: a row of abilities along the bottom and a separate list of passives at
+the top left. Both were correct and you had to know both existed to know what you were
+carrying, which is most of why this was confusing. Now it is one bar with a box per equipped
+power-up.
 
-* **The hotbar** — the keyed abilities, their key, and whether they are ready. What you can
-  press *now*.
-* **The always-on readout** — the passives you are carrying. If nothing you have equipped
-  takes a key it says **ALL EQUIPPED POWER-UPS ARE ALWAYS ON**, so an empty hotbar is not
-  mistaken for something broken.
+Above each box, an ability shows its key and a passive shows what it is *doing* —
+`READY` or a countdown for REGOLITH ARMOR's shield, `0/5` for ACCRETION DISK's debris,
+`+15%` for HEAVY METAL's mass. An empty bar says so, and means you have nothing equipped.
 
 ---
 
-## The part that is genuinely awkward
+## The part that is still awkward
 
-**There are seven keyed abilities and three slots.** Buy a fourth and it sits in your
-inventory doing nothing until you unequip something, and the shop does not warn you at the
-counter.
+**There are seven keyed abilities and four slots.** Better than three, but buy a fifth and it
+sits in your inventory doing nothing until you unequip something — and the shop does not warn
+you at the counter.
 
-Whether that stays at three is a design question — three forces you to choose, and the
-keyboard has room for more. If you have an opinion, press <kbd>B</kbd> and say so. That is
-exactly the kind of thing worth hearing before it is settled.
+Whether four is right is still open. Four forces a choice; the keyboard has room for more. If
+you have an opinion, press <kbd>B</kbd> and say so.

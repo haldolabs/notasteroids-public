@@ -5,7 +5,11 @@ it says what the code says.
 
 Full controller support. The pad has no digits, so **X** fires each equipped ability in
 turn rather than pretending to be a number row — one press takes the next ready slot and
-advances, and the hotbar marks which one is next.
+advances, and the bar marks which one is next. That is the *only* way a controller reaches
+an ability, which is why it stayed when the keyboard's equivalent went.
+
+There is no keyboard key for "next ability". `5`–`8` each fire a specific one, which says
+more than a key that fires whichever happens to be ready.
 
 ## Flight and menus
 
@@ -19,10 +23,11 @@ advances, and the hotbar marks which one is next.
 | Back / menu | `Esc / Q` | — |
 | Pause | `Esc` | `Start` |
 | Confirm | `Y / Enter` | — |
-| Fire next ready ability | `E` | `X` |
+| Fire next ready ability (pad only) | — | `X` |
 | Fire power-up slot 1 (pad: X, in turn) | `5` | — |
 | Fire power-up slot 2 (pad: X, in turn) | `6` | — |
 | Fire power-up slot 3 (pad: X, in turn) | `7` | — |
+| Fire power-up slot 4 (pad: X, in turn) | `8` | — |
 | Cycle thruster style | `T` | `B` |
 | Cycle vector font | `F` | — |
 | Increase thrust power | `2` | `RB` |
