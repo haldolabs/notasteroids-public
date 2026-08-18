@@ -80,9 +80,36 @@ about.
 
 ![The E-SHOP](media/loops/shop.gif)
 
+## Read the chart like a transit map
+
+Eleven systems in three regions, dealt fresh for every save slot. The routes run at proper
+transit-map angles, each region is its own coloured line, and the stations where you change
+lines are ringed. The regions do not connect: the arms between them are interrupted by a
+mouth, because the way across is not a jump — it is the road.
+
+![The star map, drawn as a transit diagram](media/screens/shot-06-starmap.png)
+
+Your rock sits on the map and **flies its own jumps**, under thrust, along the line as
+drawn.
+
 ## And then the road stops being a map
 
+Clear a region and the win card puts you back in the playfield with the road's mouth
+standing in it. Fly in.
+
 ![The Tunnel](media/loops/tunnel.gif)
+
+You do this three times a game and the bore is not the same twice: the first run is a
+boulevard, the second is tighter, and the last one is the tunnel every tester already knows
+— the walls arriving faster than the confidence does. If that curve is wrong for you,
+**TUNNEL BORE** in the difficulty settings scales all three at once without flattening the
+progression between them.
+
+The last run does not surface anywhere. It delivers you across the singularity boundary of
+three black holes in mutual orbit, hull pulled flat crossing the line, into the battle
+waiting on the inside.
+
+![Crossing the singularity boundary](media/screens/shot-13-finale.png)
 
 ---
 
@@ -92,15 +119,40 @@ Five games ship in here, and they are one story played in order.
 
 | | Leg | What it is |
 |---|---|---|
-| **1** | **THE STAR MAP** | The war, and the part with the hours in it. Ten systems, taken one at a time, each with a boss that has a personality. |
-| **2** | **THE TUNNEL** | Taking the map does not end anything, it opens something. The road to the AXIOM's home is a vessel threaded through several universes at once. It sings, because everything does. |
-| **3** | **ARCHNOTOIDS** | The road ends at three black holes orbiting each other, with the AXIOM's central mind running on everything falling past them. You are close enough that the tide has rolled your hull flat — which is why this one is played with a paddle. |
+| **1** | **THE STAR MAP** | The war, and the part with the hours in it. Eleven systems in **three regions**, taken one at a time, each with a boss that has a personality. |
+| **2** | **THE TUNNEL** | Not a destination — the passage. It runs **between** the regions, three times, and the bore narrows on every visit. It sings, because everything does. |
+| **3** | **ARCHNOTOIDS** | The last run of the road ends at three black holes orbiting each other, with the AXIOM's central mind running on everything falling past them. You are close enough that the tide has rolled your hull flat — which is why this one is played with a paddle. |
 | **4** | **THE GRAVITY FIELD** | You win, and what is left is you: a sentient rock in an open field, gathering other rocks, cooling. Accreting makes you pull harder, and the only way to put the load down is to let go of it. |
 | **S** | **SPACE TRASH** | Every loss on every leg falls here, among everything the AXIOM ever threw away. Hold out and it puts you back where you fell. Break up in here and the run is over. |
 
 **Lost, not dead.** A rock does not die. It goes to spore state, or it is *lost* — mislaid,
 discarded, downhill. The trash is where lost things are, and it is not a punishment. It is
 only where things end up.
+
+### The shape of a run
+
+```
+REGION 1 (3)  →  loop 1  →  REGION 2 (4)  →  loop 2  →  REGION 3 (4)  →  loop 3  →  ARCHNOTOIDS  →  THE GRAVITY FIELD
+                                                                                 the singularity
+                                                                                    boundary
+```
+
+A cleared region does not put you on a menu. The win card ends back in the playfield, where
+the road's mouth is standing, and **flying into it** is how you leave. A doorway you take,
+not a line you dismiss.
+
+**The galaxy is dealt, not authored.** Every save slot rolls its own systems — names from a
+grammar written in the game's own voice, and a chart generated inside each region under a
+fixed set of rules. HALDO PRIME and NEW SYNAPTICON are still canon and still turn up; their
+new neighbours sound like they were always on the shelf beside them.
+
+**Three tries per level, then the run is over.** Fall, and SPACE TRASH asks you to survive a
+drift to get back in: 1500 m the first time, 3000 the second, 6000 the third. Clear the
+level honestly and its tally is forgiven. Fall a fourth time and the run ends.
+
+**And then you keep the money.** A run that ends resets the chart and your position — a new
+galaxy, rolled fresh — but **your ROX, your power-ups and your hats ride across**. Progress
+resets; the purse does not. We are heathens now.
 
 The whole thing — the extremophile that had to be the one left standing, the slow fade that
 emptied the Earth without a single catastrophe, the thermal oasis AXIOM built by accident,
@@ -117,9 +169,13 @@ itself.
 | ![Ramming a ship in the Binary Belt](media/screens/shot-01-smash.png) | ![The E-SHOP](media/screens/shot-02-eshop.png) |
 | *Tier 3, mid-smash. The HUD is two corners and nothing else.* | *The counter, and the module that runs it.* |
 | ![The Tunnel](media/screens/shot-03-tunnel.png) | ![A boss fight](media/screens/shot-04-boss.png) |
-| *Leg 2. It sings.* | *Bosses have personalities, weapons and escorts.* |
-| ![ARCHNOTOIDS](media/screens/shot-05-archnotoids.png) | ![The star map](media/screens/shot-06-starmap.png) |
-| *Leg 3, played flat, for a reason the story gives.* | *Ten systems. The jump drive needs the local boss dead.* |
+| *The last loop. It sings.* | *Bosses have personalities, weapons and escorts.* |
+| ![ARCHNOTOIDS](media/screens/shot-05-archnotoids.png) | ![The star map, drawn as a transit diagram](media/screens/shot-06-starmap.png) |
+| *Leg 3, played flat, for a reason the story gives.* | *Eleven systems, three lines. The jump drive needs the local boss dead.* |
+| ![The road's mouth in the playfield](media/screens/shot-12-roadmouth.png) | ![The first tunnel loop, at full bore](media/screens/shot-14-tunnel-wide.png) |
+| *A cleared region ends here. Fly in.* | *Loop one is a boulevard. It does not stay one.* |
+| ![Crossing the singularity boundary](media/screens/shot-13-finale.png) | |
+| *The tide takes the hull at the line.* | |
 | ![A thruster style](media/screens/shot-07-thruster.png) | ![The Rock Designer](media/screens/shot-08-designer.png) |
 | *One of nineteen.* | *Ten strikes. What you cut is what you fly.* |
 | ![Zen mode](media/screens/shot-09-zen.png) | ![Wormhole travel](media/screens/shot-10-wormhole.png) |
@@ -141,8 +197,8 @@ Enough to start. The full table, including the gamepad column, is in
 |---|---|
 | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / arrows | Thrust and steer |
 | <kbd>Space</kbd> / <kbd>Enter</kbd> | Eject, confirm |
-| <kbd>E</kbd> | Fire the next ready ability |
-| <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> | Fire a specific power-up slot |
+| <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> | Fire power-up slot 1–4 |
+| <kbd>E</kbd> | Open the E-STORE (from the star map) |
 | <kbd>T</kbd> | Cycle thruster style |
 | <kbd>F</kbd> | Cycle vector font |
 | <kbd>1</kbd> <kbd>2</kbd> | Throttle down / up |
@@ -152,7 +208,13 @@ Enough to start. The full table, including the gamepad column, is in
 | <kbd>Esc</kbd> | Pause |
 
 Full controller support. The pad has no digits, so <kbd>X</kbd> fires each equipped ability
-in turn rather than pretending to be a number row.
+in turn rather than pretending to be a number row — and on the keyboard the slot keys are
+the whole story, because a single "fire the next ready one" key turned out to be a way of
+not knowing what you had just used.
+
+**It plays on a phone.** Touch is a real second layout rather than a fallback: on-screen
+controls, a portrait star map that runs the regions down the long axis, and the same game
+underneath.
 
 ---
 
@@ -160,14 +222,15 @@ in turn rather than pretending to be a number row.
 
 Counted from the code, not from a wishlist.
 
-* **10 star systems**, tiered, each with a boss
+* **11 star systems** in three regions, generated per save slot, each with a boss
+* **3 tunnel runs** per game, between the regions, the bore narrowing each time
 * **19 thruster styles**, cosmetic, cyclable mid-flight
-* **19 power-ups**, three equipped at once
+* **19 power-ups**, four equipped at once
 * **19 vector fonts** — everything drawn as line segments, including the text
 * **5 hats**, which a veteran AXIOM ship can steal off your hull and then wear
 * **9 save slots**, local to your browser
 * **A settings maze** — every tunable parameter of the game is one entry in one registry, and the pages, the persistence and the tests all derive from it
-* **THE CONTROL ROOM** — most of those levers are behind a door you have to fly a rock through
+* **THE CONTROL ROOM** — most of those levers are behind a door you have to fly a rock through, and the key to it is in three pieces, lying on the floor of a fourteen-room mansion
 * **THE SOUND LAB** — audition every sound effect, and pin the variant you like
 * **A narrator you can change, and make unreliable** — voices may notice things about your run, and may be wrong about them. The seed stays exempt: a wrong seed is a broken feature, not a joke.
 
