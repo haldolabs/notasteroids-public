@@ -87,10 +87,10 @@ transit-map angles, each region is its own coloured line, and the stations where
 lines are ringed. The regions do not connect: the arms between them are interrupted by a
 mouth, because the way across is not a jump — it is the road.
 
-![The star map, drawn as a transit diagram](media/screens/shot-06-starmap.png)
+![The star map, drawn as a transit diagram](media/loops/starmap.gif)
 
-Your rock sits on the map and **flies its own jumps**, under thrust, along the line as
-drawn.
+The cursor rides the lines rather than crossing the void, and your rock sits on the map and
+**flies its own jumps** — under thrust, along the line as drawn, elbow and all.
 
 ## And then the road stops being a map
 
