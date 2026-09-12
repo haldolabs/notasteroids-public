@@ -35,7 +35,8 @@ The game is developed privately. What lives here is the **public face**: what th
 what is in it, and the bug reports and suggestions that beta testers file from inside it.
 
 If you are playing and something is wrong — or you just want something different — press
-<kbd>B</kbd>. That is the whole process. [How reporting works ↓](#press-b)
+<kbd>Ctrl</kbd>+<kbd>C</kbd> and type `REPORT`. That is the whole process.
+[How reporting works ↓](#reporting)
 
 ---
 
@@ -53,6 +54,26 @@ Ten strikes of acidic spit shape a fresh rock. The silhouette you carve is the h
 keep for the rest of the run — there is no separate "collision shape" being kind to you.
 
 ![Sculpting a hull in the Rock Designer](media/loops/designer.gif)
+
+## Two ways to play it: vector or raster
+
+The main menu starts with a choice. **PLAY VECTOR STYLE** is the game as it has always been:
+everything on screen is line segments, the text included. **PLAY RASTER STYLE** is the same
+game drawn in chunky pixels, the way a PC game in 1993 would have drawn it.
+
+In raster, your rock is a stone sprite, the AXIOM flies pixel craft, and most scenes sit on
+painted backdrops. The text is your chosen vector font, baked into pixels.
+
+The rock designer is different in raster. You pick one of twelve found stones and a mineral
+tint. The tardigrade spits at the stone ten times: a hit on the edge bites a piece off, and a
+hit further in leaves a crater. You can age the stone, then turn it and cut the vent where
+the flame comes out.
+
+**Raster unlocks after one full campaign in vector.** The command line can open it early.
+Both choices lead to the same nine save slots, and a slot plays in the style you picked to
+reach it. The slot list marks the ones last played in raster.
+
+Multiplayer stays in vector.
 
 ## Nineteen thrusters, no apology
 
@@ -196,13 +217,13 @@ Enough to start. The full table, including the gamepad column, is in
 | <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / arrows | Thrust and steer |
 | <kbd>Space</kbd> / <kbd>Enter</kbd> | Eject, confirm |
 | <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> | Fire power-up slot 1–4 |
-| <kbd>E</kbd> | Open the E-STORE (from the star map) |
+| <kbd>E</kbd> | Open the E-SHOP for hats (from the star map) |
 | <kbd>T</kbd> | Cycle thruster style |
 | <kbd>F</kbd> | Cycle vector font |
 | <kbd>1</kbd> <kbd>2</kbd> | Throttle down / up |
 | <kbd>-</kbd> <kbd>+</kbd> | Spin rate down / up |
 | <kbd>Z</kbd> | Zen mode — instruments off |
-| <kbd>B</kbd> | File a bug or a suggestion |
+| <kbd>Ctrl</kbd>+<kbd>C</kbd> | Open the command line — type `REPORT` to file a bug or an idea |
 | <kbd>Esc</kbd> | Pause |
 
 Full controller support. The pad has no digits, so <kbd>X</kbd> fires each equipped ability
@@ -220,13 +241,15 @@ underneath.
 
 Counted from the code, not from a wishlist.
 
+* **2 styles of play** — vector line work, or raster pixels once a campaign is won
 * **11 star systems** in three regions, generated per save slot, each with a boss
 * **3 tunnel runs** per game, between the regions, the bore narrowing each time
 * **19 thruster styles**, cosmetic, cyclable mid-flight
 * **19 power-ups**, four equipped at once
-* **19 vector fonts** — everything drawn as line segments, including the text
+* **19 vector fonts** — in vector style everything is drawn as line segments, including the text
 * **5 hats**, which a veteran AXIOM ship can steal off your hull and then wear
 * **9 save slots**, local to your browser
+* **A high-score board** — six boards, fed a level at a time by the runs that post to it
 * **A settings maze** — every tunable parameter of the game is one entry in one registry, and the pages, the persistence and the tests all derive from it
 * **THE CONTROL ROOM** — most of those levers are behind a door you have to fly a rock through, and the key to it is in three pieces, lying on the floor of a fourteen-room mansion
 * **THE SOUND LAB** — audition every sound effect, and pin the variant you like
@@ -239,8 +262,8 @@ own high-contrast and colourblind-safe modes, plus a sensitivity dial.
 
 Being straight about the limits of that: the colourblind option is **specific to
 ARCHNOTOIDS** and does not restyle the rest of the game, which still leans on a small set
-of saturated colours on black. If that is a problem for you, say so with <kbd>B</kbd> — it
-is a fair thing to want and nobody has asked yet.
+of saturated colours. If that is a problem for you, say so in a report — it is a fair thing
+to want and nobody has asked yet.
 
 What is a firm rule: anything that exists to stop requiring an ability is never locked
 behind THE CONTROL ROOM. Reaching that room means flying a rock through a doorway, which
@@ -248,12 +271,18 @@ is exactly the ability those settings exist to stop requiring.
 
 ---
 
-<a name="press-b"></a>
+<a name="reporting"></a>
 
-## Press B
+## Reporting a bug or an idea
 
-The reporter is built into the game. Press <kbd>B</kbd> during play, type what happened,
-and it goes straight to the machine that serves the game.
+The reporter is built into the game, and it lives on the command line.
+
+Press <kbd>Ctrl</kbd>+<kbd>C</kbd> anywhere and the game freezes behind a command line. Type
+`REPORT`. It asks whether this is a bug or an idea, shows you how to write it, takes your
+words, tells you where they will go, and asks before it sends anything.
+
+A phone has no <kbd>Ctrl</kbd>. Use **SETTINGS → INTERFACE → BUG OR SUGGESTION** instead. It
+opens the same command line with an on-screen keyboard.
 
 *Testing the game? **[BETA.md](BETA.md)** is the fuller version of this — what is worth
 sending, what is out of scope, and the one habit that makes a report actionable.*
@@ -262,17 +291,20 @@ sending, what is out of scope, and the one habit that makes a report actionable.
 * **Nothing about you is stored.** The server keeps what you chose to type and what your
   browser said it was. It deliberately never writes down an address.
 * **A snapshot rides along** — which build you were on, which screen you were looking at,
-  the level, the seed, your settings and a summary of the run — so that "it froze" arrives
-  with enough attached to chase it.
+  the level, the seed, your settings and a summary of the run as it stood when you pressed
+  <kbd>Ctrl</kbd>+<kbd>C</kbd> — so that "it froze" arrives with enough attached to chase it.
+
+The **BUG REPORTER** setting on the same INTERFACE page switches all of this off.
 
 ### What happens to it
 
-Every report is read by a human, then transcribed into an **[Issue](../../issues)** here:
-quoted exactly as written, with the useful half of its snapshot. Nothing is published
-before someone has read it, which is also how we keep track of which ones we have got to.
+**Reports are public within five minutes.** Each one becomes an **[Issue](../../issues)**
+here automatically: your words exactly as written, with the useful half of the snapshot.
+Nobody reads it before it is published, so leave out anything you would not put on a public
+page.
 
-Then it is triaged against the actual code, so the Issue title may end up describing
-something narrower — or wider — than the report did. That has happened more than once:
+Then a human reads it and checks it against the actual code, so the Issue may end up about
+something narrower — or wider — than the report described. That has happened more than once:
 
 > *"RUNNING INTO A BOSS WITH LASERS DOES NOT AUTOMATICALLY SHUT DOWN THERE WEAPON"*
 
@@ -285,7 +317,8 @@ already smashed.
 ...was also correct, and understated. Buying it three times moved your thrust from 2 to 5,
 while tapping <kbd>2</kbd> moved it to 10 for free. Not unneeded — dominated.
 
-Labels say where a report got to:
+Labels say where a report got to. Only `from-game` is added automatically. The rest are
+added by a person, after checking:
 
 | | |
 |---|---|
@@ -319,14 +352,24 @@ clearing site data clears your runs.
 the main menu and it does something, but it is a work in progress rather than a feature,
 and none of this page is about it. Everything described here is single-player.
 
-**There are no accounts.** No profiles, no logins, no cloud saves, no leaderboards —
-nothing to sign up for and nothing to lose access to.
+**There are no accounts.** No profiles, no logins, no cloud saves — nothing to sign up for
+and nothing to lose access to.
 
-**Some of the audio is AI-generated, ahead of time.** Sound effects from Stable Audio Open
-and music from ACE-Step, generated locally, with the prompts and seeds kept alongside the
-assets so any of them can be rebuilt. CLANKER's voice is **SAM — Software Automatic Mouth,
-1982** — a formant synthesiser, not a model. No AI-generated art ships, and the game makes
-no AI calls while you play.
+**There is a high-score board, and posting to it is on by default.** Each level you pass is
+sent to the host under your save slot's name, so the run can be ranked. The host never
+writes down an address, and your browser is known only by a random id it made up for itself.
+Turn posting off under **SETTINGS → INTERFACE → POST RUNS TO THE BOARD**, or on the HIGH
+SCORES screen.
+
+**Some of the audio and most of the raster art is AI-generated, ahead of time.** Sound
+effects come from Stable Audio Open and music from ACE-Step, generated locally, with the
+prompts and seeds kept alongside the assets so any of them can be rebuilt. CLANKER's voice is
+**SAM — Software Automatic Mouth, 1982** — a formant synthesiser, not a model.
+
+The raster style's sprites were made with Google's Gemini image model, and its backdrops with
+a local Stable Diffusion pixel-art model. The four shopkeepers were generated from hand
+drawings. The small effects — flames, explosions, the hats — are drawn by a script. The
+vector style ships no AI-generated art, and the game makes no AI calls while you play.
 
 **The letterforms are mostly not ours.** Fourteen of the nineteen vector fonts are
 Hofstadter & McGraw's Letter Spirit gridfonts and one is the 1979 Atari *Asteroids* ROM
