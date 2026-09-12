@@ -29,7 +29,9 @@ handful of reports were suggestions, and both shipped.
 
 ## How to send it
 
-Press <kbd>B</kbd> while you are playing. Type. Send.
+Press <kbd>Ctrl</kbd>+<kbd>C</kbd> while you are playing and type `REPORT`. It asks three
+things: bug or idea, your words, and whether to send. On a phone, use **SETTINGS → INTERFACE
+→ BUG OR SUGGESTION**, which opens the same thing with an on-screen keyboard.
 
 That is all of it. You do not need to describe your setup, what level you were on, what
 settings you had, or what your browser is — **a snapshot rides along automatically**: the
@@ -55,12 +57,12 @@ Same for everything else: which screen, which power-up, which boss, which sound.
 
 ## What happens to it
 
-1. **A human reads it.** Every report, before anything is published.
-2. **It becomes an [Issue](../../issues) here**, quoted exactly as you wrote it, with the
-   useful half of your snapshot attached.
-3. **It gets checked against the actual code**, not taken at face value — twice now the
-   real defect turned out to be worse than what was visible from the cockpit.
-4. **If it gets fixed, the Issue is closed naming the build it went live in.** Deploys take
+1. **It is published here within five minutes**, as an [Issue](../../issues), quoted exactly
+   as you wrote it, with the useful half of your snapshot attached. Nobody reads it first, so
+   leave out anything you would not put on a public page.
+2. **A human reads it and checks it against the actual code**, not at face value — twice now
+   the real defect turned out to be worse than what was visible from the cockpit.
+3. **If it gets fixed, the Issue is closed naming the build it went live in.** Deploys take
    about two minutes, so you can go and look.
 
 You are not filing into a void, and you are not going to be told your report is a duplicate
@@ -77,6 +79,10 @@ domain clears your runs — there is no cloud save and no account to restore fro
 can land mid-session. If something looked broken an hour ago, reload before reporting it —
 though a report on a stale build is still useful, and the snapshot tells us which one you
 had.
+
+**There are two styles of play.** PLAY VECTOR STYLE is the line-drawn game. PLAY RASTER
+STYLE is the same game in pixels, and it unlocks after one full campaign in vector. Both are
+worth reporting on. If something looks wrong in one style and not the other, say which.
 
 **Some things are deliberately hidden.** Most gameplay settings are locked until you find
 THE CONTROL ROOM, which is a place in the game rather than a menu. That is not a bug. What
@@ -96,15 +102,15 @@ So you know what is out of scope rather than reporting it as broken:
   yet — so please spend your time on the single-player game. You are not missing anything
   by ignoring it, and a report about it is not wasted so much as early.
 * **A release, on any platform.** There is no date, no store page and no launcher.
-* **Anything with an account attached** — no logins, no profiles, no cloud saves, no
-  leaderboards.
+* **Anything with an account attached** — no logins, no profiles, no cloud saves. The
+  high-score board needs no account: a run posts under its save slot's name.
 
 ---
 
 ## If it will not run at all
 
 The game is 2D canvas with no shader path, so it does not ask much of a machine, but if it
-will not start there is nowhere to press <kbd>B</kbd>. Open an
+will not start there is no command line to report from. Open an
 [Issue](../../issues/new) here directly and say what browser you are on.
 
 ---
