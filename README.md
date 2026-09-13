@@ -64,10 +64,17 @@ game drawn in chunky pixels, the way a PC game in 1993 would have drawn it.
 In raster, your rock is a stone sprite, the AXIOM flies pixel craft, and most scenes sit on
 painted backdrops. The text is your chosen vector font, baked into pixels.
 
+| Vector | Raster |
+|---|---|
+| ![A tier 4 wave, in vector](media/screens/shot-01-smash.png) | ![The same system, in raster](media/screens/shot-15-raster-smash.png) |
+| *Tier 4, in line segments.* | *The same system, in pixels.* |
+
 The rock designer is different in raster. You pick one of twelve found stones and a mineral
 tint. The tardigrade spits at the stone ten times: a hit on the edge bites a piece off, and a
 hit further in leaves a crater. You can age the stone, then turn it and cut the vent where
 the flame comes out.
+
+![Spitting at a found stone on the raster designer's bench](media/loops/raster-designer.gif)
 
 **Raster unlocks after one full campaign in vector.** The command line can open it early.
 Both choices lead to the same nine save slots, and a slot plays in the style you picked to
@@ -185,8 +192,8 @@ itself.
 
 | | |
 |---|---|
-| ![Ramming a ship in the Binary Belt](media/screens/shot-01-smash.png) | ![The E-SHOP](media/screens/shot-02-eshop.png) |
-| *Tier 3, mid-smash. The HUD is two corners and nothing else.* | *The counter, and the module that runs it.* |
+| ![A tier 4 wave, in vector](media/screens/shot-01-smash.png) | ![The E-SHOP](media/screens/shot-02-eshop.png) |
+| *Tier 4. The HUD is two corners and nothing else.* | *The counter, and the module that runs it.* |
 | ![The Tunnel](media/screens/shot-03-tunnel.png) | ![A boss fight](media/screens/shot-04-boss.png) |
 | *The last loop. It sings.* | *Bosses have personalities, weapons and escorts.* |
 | ![ARCHNOTOIDS](media/screens/shot-05-archnotoids.png) | ![The star map, drawn as a transit diagram](media/screens/shot-06-starmap.png) |
@@ -201,6 +208,17 @@ itself.
 | *<kbd>Z</kbd> takes the instruments off and leaves the rock alone in the dark.* | *Between systems.* |
 | ![PI TAPE](media/screens/shot-11-pitape.png) | |
 | *The trail is the path, written down.* | |
+
+### In raster
+
+| | |
+|---|---|
+| ![A boss fight in raster](media/screens/shot-17-raster-boss.png) | ![SPACE TRASH in raster](media/screens/shot-19-raster-trash.png) |
+| *Two Architects and a beam, over the planet.* | *The junk has names. That one is a teapot.* |
+| ![The tunnel in raster](media/screens/shot-18-raster-tunnel.png) | ![The E-SHOP in raster](media/screens/shot-20-raster-eshop.png) |
+| *The walls are rock now.* | *The keeper and CLANKER, in pixels.* |
+| ![The raster rock designer](media/screens/shot-16-raster-designer.png) | ![The main menu in raster](media/screens/shot-21-raster-menu.png) |
+| *Five spits left, one pass of age.* | *Both ways in, from the same menu.* |
 
 There is also a [trailer](media/trailer.mp4) in here. GitHub will not play it inline, so
 you will have to download it to watch it.
