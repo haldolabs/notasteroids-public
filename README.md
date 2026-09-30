@@ -7,7 +7,8 @@
 > The game is playable start to finish, in a browser, with nothing to install. It is not
 > finished and there is no release date.
 >
-> **It lives on itch.io, under its trial name: [TRIGONOPHOBIA →](https://synapticon.itch.io/notasteroids)**
+> **Play it on itch.io: [synapticon.itch.io/notasteroids →](https://synapticon.itch.io/notasteroids)**
+> (The game calls itself TRIGONOPHOBIA at the moment. The name is on trial.)
 >
 > **Testing it? [Start here →](BETA.md)**
 
