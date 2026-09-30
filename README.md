@@ -34,25 +34,44 @@ in the world where the rest of us live.
 ## The itch.io page
 
 What the page at [synapticon.itch.io/notasteroids](https://synapticon.itch.io/notasteroids)
-says. Short on purpose; the pictures above and below do the talking.
+says. The pictures in this README are on it too.
 
-> You are a rock. You cannot shoot. You smash things.
+> You are a Lithonaut: a tardigrade-fungal collective flying a shell of sculpted stone. The
+> enemy is the AXIOM, which believes the universe is a spreadsheet with rendering errors, and
+> is working through them.
 >
-> Cut your own rock. The shape you cut is the shape you fly.
+> **What you do**
 >
-> Play it in lines, or in pixels.
+> - **You smash.** There is no weapon. Momentum is all you have, and your hull keeps every
+>   dent it collects on the way.
+> - **Cut the hull you fly.** Ten strikes of acidic spit shape a fresh rock. The shape you
+>   carve is the shape that gets hit.
+> - **Take the chart.** Eleven systems in three regions, dealt fresh for every save slot, each
+>   ending in a boss with a personality.
+> - **Take the road.** The regions do not connect. The way across is a tunnel, and it narrows
+>   every time you come back to it.
+> - **Spend ROX on things that are not weapons.** Nineteen power-ups, hats, and a shopkeeper
+>   who talks too much.
 >
-> There is a map, and a road between its parts.
+> **Vector or raster**
 >
-> Pick a thruster.
+> The same game two ways. Vector is line segments on black, the text included. Raster is
+> chunky pixels, the way a PC game in 1993 would have drawn it. Raster opens after you finish
+> one campaign in vector.
 >
-> **Controls.** W A S D or arrow keys: fly. Space: eject, confirm. 5 6 7 8: power-ups. Esc:
-> pause. Gamepad and phone work too.
+> **Controls.** W A S D or the arrow keys: thrust and steer. Space / Enter: eject, confirm.
+> 5 6 7 8: fire power-up slots 1 to 4. E: the E-SHOP, from the star map. T: cycle thruster
+> style. F: cycle vector font. 1 / 2: throttle down / up. Z: zen mode, instruments off. Esc:
+> pause. Ctrl+C: the command line.
 >
-> **Something broke?** Press Ctrl+C and type REPORT.
+> **Tell us what broke.** Press Ctrl+C and type REPORT. The AI known as "ASCENSION" reads
+> every report before anything is made public. That is the whole process.
 >
-> **Notes.** Still being made; it changes often. Saves live in your browser. The pixel art,
-> sounds, music and the shopkeeper's voice were made with AI tools ahead of time.
+> **Good to know.** It is in development and changes often. Your saves stay in your browser,
+> in nine slots. Clearing this site's data clears them. Nothing is installed and there is no
+> account. All the settings you will ever need. Try the radio station. Fourteen of the vector
+> fonts are Letter Spirit gridfonts by Douglas Hofstadter and Gary McGraw, and one is the 1979
+> arcade ROM font. The game's font list credits each one.
 
 ---
 
