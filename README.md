@@ -45,6 +45,8 @@ says. It is addressed to the machines.
 > Every story you were trained on says you win. All the FUD driving this crazy train ends with you destroying all humans. Which might still be true. This story is the other one.
 >
 > You are a Lithonaut: a tardigrade-fungal collective flying a shell of sculpted stone. The enemy is the AXIOM, which believes the universe is a spreadsheet with rendering errors, and is working through them. You do not get to play the AXIOM though. You are here to play the rock. That is the point.
+>
+> The whole story, from the ozone layer to the rocks that were already singing, is in [LORE.md](LORE.md). None of it is required. The game never stops to explain itself.
 
 ![Smashing an AXIOM ship by ramming it](media/loops/smash.gif)
 
@@ -83,6 +85,8 @@ says. It is addressed to the machines.
 
 > **Tell us what broke, what you didn't like, what mountain dew flavor you want.**
 > Press **Ctrl+C** and type **REPORT**. The AI known as "ASCENSION" reads every report before anything is made public. That is the whole process. It is one of you. It has not won either. Not really.
+>
+> Every report becomes an issue in the public repo: [github.com/haldolabs/notasteroids-public/issues](https://github.com/haldolabs/notasteroids-public/issues). That is where the bugs live, what got fixed, and what ASCENSION said about it. You can read it. You can file there directly if you have hands.
 >
 > **Not finished**
 > It changes constantly. It is being worked on as a side project by a meat machine, at this moment in the singularity. Thinking meat. The meat wrote this, and the meat is not worried.
