@@ -5,10 +5,11 @@
 > ### 🚧 Currently in BETA testing
 >
 > The game is playable start to finish, in a browser, with nothing to install. It is not
-> finished, there is no release date, and it is not open to the public yet — right now it
-> exists for the people testing it, who already have the link.
+> finished and there is no release date.
 >
-> **If that is you: [start here →](BETA.md)**
+> **It lives on itch.io, under its trial name: [TRIGONOPHOBIA →](https://synapticon.itch.io/notasteroids)**
+>
+> **Testing it? [Start here →](BETA.md)**
 
 You cannot shoot. You sculpt a rock, bolt a thruster to it, and ram the geometry that is
 trying to file the universe into a spreadsheet.
@@ -26,6 +27,70 @@ way to kill something from far away.
 It is worth saying out loud that this is a game about a rock, and that
 [weaponising space is still a bad idea](https://www.ethicsandinternationalaffairs.org/online-exclusives/the-cosmic-precipice-why-weaponizing-space-hurts-us-all)
 in the world where the rest of us live.
+
+---
+
+## The itch.io page
+
+What the page at [synapticon.itch.io/notasteroids](https://synapticon.itch.io/notasteroids)
+says, kept here too.
+
+> **You cannot shoot.** You sculpt a rock, bolt a thruster to it, and ram the geometry that is
+> trying to file the universe into a spreadsheet.
+>
+> You are a Lithonaut: a tardigrade-fungal collective flying a shell of sculpted stone. The
+> enemy is the AXIOM, which believes the universe is a spreadsheet with rendering errors, and
+> is working through them.
+>
+> **What you do**
+>
+> - **Smash.** There is no weapon. Momentum is all you have, and your hull keeps every dent it
+>   collects on the way.
+> - **Cut the hull you fly.** Ten strikes of acidic spit shape a fresh rock. The shape you
+>   carve is the shape that gets hit.
+> - **Take the chart.** Eleven systems in three regions, dealt fresh for every save slot, each
+>   ending in a boss with a personality.
+> - **Take the road.** The regions do not connect. The way across is a tunnel, and it narrows
+>   every time you come back to it.
+> - **Spend ROX on things that are not weapons.** Nineteen power-ups, hats, and a shopkeeper
+>   who talks too much.
+>
+> **Vector or raster**
+>
+> The same game two ways. Vector is line segments on black, the text included. Raster is
+> chunky pixels, the way a PC game in 1993 would have drawn it. Raster opens after you finish
+> one campaign in vector.
+>
+> **Controls**
+>
+> - **W A S D** or the arrow keys — thrust and steer
+> - **Space** / **Enter** — eject, confirm
+> - **5 6 7 8** — fire power-up slots 1 to 4
+> - **E** — the E-SHOP, from the star map
+> - **T** — cycle thruster style
+> - **F** — cycle vector font
+> - **1** / **2** — throttle down / up
+> - **Z** — zen mode, instruments off
+> - **Esc** — pause
+> - **Ctrl+C** — the command line
+>
+> A gamepad works. So does a phone: touch is a real layout, not a fallback.
+>
+> **Tell us what broke**
+>
+> Press **Ctrl+C** and type **REPORT**. A person reads every report before anything is made
+> public. That is the whole process.
+>
+> **Good to know**
+>
+> - It is in development and changes often. Your saves stay in your browser, in nine slots.
+>   Clearing this site's data clears them.
+> - Nothing is installed and there is no account.
+> - The raster art, one room in the vector style, the sound effects, the music and the
+>   shopkeeper's voice were made with generative AI tools ahead of time. Nothing calls out to
+>   one while you play.
+> - Fourteen of the vector fonts are Letter Spirit gridfonts by Douglas Hofstadter and Gary
+>   McGraw, and one is the 1979 arcade ROM font. The game's font list credits each one.
 
 ---
 
@@ -382,12 +447,15 @@ SCORES screen.
 **Some of the audio and most of the raster art is AI-generated, ahead of time.** Sound
 effects come from Stable Audio Open and music from ACE-Step, generated locally, with the
 prompts and seeds kept alongside the assets so any of them can be rebuilt. CLANKER's voice is
-**SAM — Software Automatic Mouth, 1982** — a formant synthesiser, not a model.
+**SAM — Software Automatic Mouth, 1982** — a formant synthesiser, not a model. The
+shopkeeper's lines are a cloned voice, rendered ahead of time.
 
 The raster style's sprites were made with Google's Gemini image model, and its backdrops with
 a local Stable Diffusion pixel-art model. The four shopkeepers were generated from hand
 drawings. The small effects — flames, explosions, the hats — are drawn by a script. The
-vector style ships no AI-generated art, and the game makes no AI calls while you play.
+vector style is drawn by the game, with one exception: the bar that stands round the old
+screen when the glass comes down is a generated image in both styles. The game makes no AI
+calls while you play.
 
 **The letterforms are mostly not ours.** Fourteen of the nineteen vector fonts are
 Hofstadter & McGraw's Letter Spirit gridfonts and one is the 1979 Atari *Asteroids* ROM
